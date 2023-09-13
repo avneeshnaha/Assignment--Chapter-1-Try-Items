@@ -82,8 +82,9 @@ $nutrition = [
     'sugar'=> 51,
     'salt' => 0.25,
 ];
-$nutrion['fat']= 36;
-$nutrion['fiber']= 2.1;
+$nutrition['fat']= 36;
+$nutrition['fiber']= 2.1;
+$nutrition['protein']= 7.3;
 ?>
 <!DOCTYPE html>
 <html>
@@ -91,10 +92,10 @@ $nutrion['fiber']= 2.1;
     <body>
         <h1>The Candy Store</h1>
         <h2>Nutrition (per 100g)</h2>
-        <p>Fat:   <?php echo $nutrion['fat']; ?>%<p>
-        <p>Sugar:   <?php echo $nutrion['Sugar']; ?>%<p>
-        <p>Salt:   <?php echo $nutrion['Salt']; ?>%<p>
-        <p>Fiber:   <?php echo $nutrion['Fiber']; ?>%<p>
+        <p>Fat:   <?php echo $nutrition['fat']; ?>%<p>
+        <p>Sugar:   <?php echo $nutrition['Sugar']; ?>%<p>
+        <p>Salt:   <?php echo $nutrition['Salt']; ?>%<p>
+        <p>Fiber:   <?php echo $nutrition['Fiber']; ?>%<p>
 </body>
 </html>
 
