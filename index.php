@@ -165,7 +165,7 @@ $total    = $subtotal + $tax;
 <?php 
 $prefix  = 'Thank you';
 $name    = 'Avneesh';
-$message = $prefix . ', ' . $name;
+$message = $prefix  $name;
 ?>
 <!DOCTYPE html>
 <html>
