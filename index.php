@@ -76,6 +76,28 @@ $best_sellers = ['chocolate', 'Mints', 'Fudge','Licorice', 'Bubble Gum', 'Toffee
 </ul>
 </body>
 </html>
+<?php
+$nutrition = [
+    'fat'  => 38,
+    'sugar'=> 51,
+    'salt' => 0.25,
+];
+$nutrion['fat']= 36;
+$nutrion['fiber']= 2.1;
+?>
+<!DOCTYPE html>
+<html>
+    <head> . . . </head>
+    <body>
+        <h1>The Candy Store</h1>
+        <h2>Nutrition (per 100g)</h2>
+        <p>Fat:   <?php echo $nutrion['fat']; ?>%<p>
+        <p>Sugar:   <?php echo $nutrion['Sugar']; ?>%<p>
+        <p>Salt:   <?php echo $nutrion['Salt']; ?>%<p>
+        <p>Fiber:   <?php echo $nutrion['Fiber']; ?>%<p>
+</body>
+</html>
+
 
 
 
