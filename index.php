@@ -34,3 +34,23 @@ $price = 5;
         $<?php echo $price; ?>per pack.</p>
 </body>
 </html>
+<?php
+$nutrition = [
+    'fat'   => 42,
+    'sugar' => 60,
+    'salt'  => 3.5,
+    'protein' => 2.6,
+];
+?>
+<!DOCTYPE html>
+<html>
+    <head> . . . </head>
+    <body>
+        <h1>The Candy Store</h1>
+        <h2>Nutrition (per100g)</h2>
+        <p>Fat:   <?php echo $nutrition['fat']; ?>%</p>
+        <p>Sugar: <?php echo $nutrition['sugar']; ?>%</p>
+        <p>Salt:  <?php echo $nutrition['salt']; ?>%</p>
+        <p>Protein:  <?php echo $nutrition['Protein']; ?>%</p>
+</body>
+</html>
